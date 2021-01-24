@@ -146,6 +146,7 @@ b{
     box-shadow: 3px 5px 20px gray;
     cursor: pointer;
     border-radius: 3%;
+    overflow:hidden;
 }
 .con2:hover{
     box-shadow: 3px 5px 80px gray;
@@ -237,6 +238,13 @@ b{
     padding: 4px;
     margin-top: 10px;
     align-items: center;
+}
+@media (max-width: 575.98px) { 
+    .img1{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
 }
 
 
